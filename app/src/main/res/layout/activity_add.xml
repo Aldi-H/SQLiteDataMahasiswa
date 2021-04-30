@@ -6,7 +6,8 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".addActivity"
-    android:orientation="vertical">
+    android:orientation="vertical"
+    android:background="@drawable/bg_gradient">
 
     <ScrollView
         android:layout_width="match_parent"
@@ -15,7 +16,8 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="vertical"
-            android:layout_margin="10dp">
+            android:layout_margin="25dp"
+            android:padding="15dp">
 
             <EditText
                 android:layout_width="match_parent"
@@ -25,29 +27,57 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="@string/nim"
-                android:textStyle="bold"/>
+                android:textStyle="bold"
+                android:layout_margin="5dp"
+                android:padding="5dp"
+                android:fontFamily="@font/merriweather_bold"
+                android:textColor="#EAEAEA"
+                android:textSize="18sp"
+                android:typeface="normal"/>
             <EditText
                 android:id="@+id/txNim_Add"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:inputType="number"/>
+                android:inputType="number"
+                android:background="@drawable/outline_rounded"
+                android:padding="10dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="20dp"
+                android:textColor="#EAEAEA"/>
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="@string/nama_lengkap"
-                android:textStyle="bold"/>
+                android:textStyle="bold"
+                android:layout_margin="5dp"
+                android:padding="5dp"
+                android:fontFamily="@font/merriweather_bold"
+                android:textColor="#EAEAEA"
+                android:textSize="18sp"
+                android:typeface="normal"/>
             <EditText
                 android:id="@+id/txNama_Add"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:inputType="textCapSentences"/>
+                android:inputType="textCapSentences"
+                android:background="@drawable/outline_rounded"
+                android:padding="10dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="20dp"
+                android:textColor="#EAEAEA"/>
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="@string/prodi"
-                android:textStyle="bold"/>
+                android:textStyle="bold"
+                android:layout_margin="5dp"
+                android:padding="5dp"
+                android:fontFamily="@font/merriweather_bold"
+                android:textColor="#EAEAEA"
+                android:textSize="18sp"
+                android:typeface="normal"/>
             <Spinner
                 android:id="@+id/spProdi_Add"
                 android:layout_width="match_parent"
@@ -58,12 +88,23 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="@string/kelas"
-                android:textStyle="bold"/>
+                android:textStyle="bold"
+                android:layout_margin="5dp"
+                android:padding="5dp"
+                android:fontFamily="@font/merriweather_bold"
+                android:textColor="#EAEAEA"
+                android:textSize="18sp"
+                android:typeface="normal"/>
             <EditText
                 android:id="@+id/txKelas_Add"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:inputType="textCapSentences"/>
+                android:inputType="textCapSentences"
+                android:background="@drawable/outline_rounded"
+                android:padding="10dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="20dp"
+                android:textColor="#EAEAEA"/>
         </LinearLayout>
     </ScrollView>
 </LinearLayout>
