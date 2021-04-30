@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">SQLite</string>
+    <string name="action_settings">Settings</string>
+
+    <!--Menu Navigation-->
+    <string name="save">Save</string>
+    <string name="delete">Delete</string>
+    <string name="nim">Nim</string>
+    <string name="nama_lengkap">Nama Lengkap</string>
+    <string name="prodi">Prodi</string>
+    <string name="kelas">Kelas</string>
+
+    <!--Prodi String Array-->
+    <string-array name="prodi">
+        <item>Teknologi Informasi</item>
+        <item>Sistem Informasi</item>
+        <item>Teknik Komputer</item>
+        <item>Teknik Informatika</item>
+        <item>Pendidikan Teknologi Informasi</item>
+    </string-array>
+</resources>
